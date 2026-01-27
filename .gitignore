@@ -32,6 +32,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+!WBBOMDesignTPS40305DRCR.csv
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip

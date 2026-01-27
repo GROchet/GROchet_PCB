@@ -613,6 +613,14 @@
     [
       "3baddeec-c816-49cd-b0da-31ae2c310c30",
       "Root"
+    ],
+    [
+      "958c7a1c-9468-4fec-9b18-b6ec22649d5e",
+      "Power"
+    ],
+    [
+      "9128c34d-5e76-442a-804c-ca36abd2dcd7",
+      "Limit Switches"
     ]
   ],
   "text_variables": {}
