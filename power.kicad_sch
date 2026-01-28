@@ -1664,6 +1664,12 @@
 		(uuid "07fa9358-3b1f-4a93-9786-3a2a3e13c7d1")
 	)
 	(junction
+		(at 77.47 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fd9ff7c-cb2c-4854-a38d-d999d70c101f")
+	)
+	(junction
 		(at 97.79 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1694,10 +1700,22 @@
 		(uuid "3e375bba-10b2-46f6-9a86-7a785dc48aef")
 	)
 	(junction
+		(at 77.47 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45996c9e-5208-4a65-8224-d56fd43fb77b")
+	)
+	(junction
 		(at 182.88 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "668b3cfb-97d9-4e87-b0a4-c1093febc806")
+	)
+	(junction
+		(at 88.9 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ae0d920-d5d1-43fd-9424-0e1388c9cfb4")
 	)
 	(junction
 		(at 194.31 114.3)
@@ -1810,6 +1828,16 @@
 			(type default)
 		)
 		(uuid "1bc0abf6-f7a2-47e9-aa9c-4e62567c5977")
+	)
+	(wire
+		(pts
+			(xy 77.47 91.44) (xy 77.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29699895-32cd-44ab-b81b-1bc4e453e52a")
 	)
 	(wire
 		(pts
@@ -1933,6 +1961,36 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 91.44) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d52d3a5-0f88-4ad7-9099-5a789a039b68")
+	)
+	(wire
+		(pts
+			(xy 77.47 101.6) (xy 88.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e766462-5c67-469a-a436-7b0f7d4a8e19")
+	)
+	(wire
+		(pts
+			(xy 66.04 93.98) (xy 66.04 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d8187f-1bdb-4351-a7ca-91d8efc99d4d")
+	)
+	(wire
+		(pts
 			(xy 153.67 118.11) (xy 166.37 118.11)
 		)
 		(stroke
@@ -1940,6 +1998,26 @@
 			(type default)
 		)
 		(uuid "7c902d72-6328-4e25-877b-e53ff6d80aa6")
+	)
+	(wire
+		(pts
+			(xy 66.04 101.6) (xy 77.47 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4f3d64-970e-4006-a0bd-e114e43c7c69")
+	)
+	(wire
+		(pts
+			(xy 66.04 91.44) (xy 77.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8100e814-67a8-4b9c-b097-67d79016d170")
 	)
 	(wire
 		(pts
@@ -3793,6 +3871,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 66.04 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "478c9712-15d9-4738-8b05-cec46cfd556e")
+		(property "Reference" "C24"
+			(at 69.85 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 69.85 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 67.0052 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64f7136c-c418-4e86-9756-3b4323df335b")
+		)
+		(pin "1"
+			(uuid "81ff3714-85c7-44ef-87c8-0a03ca3f0524")
+		)
+		(instances
+			(project "GROchet_PCB"
+				(path "/3baddeec-c816-49cd-b0da-31ae2c310c30/958c7a1c-9468-4fec-9b18-b6ec22649d5e"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2026-01-23_17-05-08:TPS40305DRCR")
 		(at 121.92 107.95 0)
 		(unit 1)
@@ -4184,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_694108106102_2.5x5.5mm"
 			(at 33.02 44.196 0)
 			(effects
 				(font
@@ -4528,7 +4676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-60xx"
 			(at 173.99 114.3 0)
 			(effects
 				(font
@@ -4879,6 +5027,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 77.47 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a94b3d4d-1792-4b1a-8384-394c5e9c191c")
+		(property "Reference" "C23"
+			(at 81.28 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 81.28 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 78.4352 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9fcc9163-e9a5-4cb8-a88a-ad375a40e71a")
+		)
+		(pin "1"
+			(uuid "1c244ca9-6b3d-4788-b9f4-21822dc86a2e")
+		)
+		(instances
+			(project "GROchet_PCB"
+				(path "/3baddeec-c816-49cd-b0da-31ae2c310c30/958c7a1c-9468-4fec-9b18-b6ec22649d5e"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 106.68 0)
 		(unit 1)
@@ -4971,7 +5189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.7x2.4mm_ThermalVias"
 			(at 168.91 120.65 0)
 			(effects
 				(font
@@ -5080,7 +5298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.7x2.4mm_ThermalVias"
 			(at 168.91 99.06 0)
 			(effects
 				(font
