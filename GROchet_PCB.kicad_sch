@@ -4448,16 +4448,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 109.22) (xy 265.43 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d24d40e-c9b9-4609-a43a-a2cba34d856d")
-	)
-	(wire
-		(pts
 			(xy 152.4 137.16) (xy 161.29 137.16)
 		)
 		(stroke
@@ -4515,16 +4505,6 @@
 			(type default)
 		)
 		(uuid "1d3cb0f5-cda3-43db-8434-81d767c7f2eb")
-	)
-	(wire
-		(pts
-			(xy 271.78 106.68) (xy 265.43 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e974335-33ae-4dda-ad57-6775050bda5f")
 	)
 	(polyline
 		(pts
@@ -4978,16 +4958,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 111.76) (xy 265.43 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b341db6-f543-4198-9dba-2dccf3e22916")
-	)
-	(wire
-		(pts
 			(xy 121.92 24.13) (xy 123.19 24.13)
 		)
 		(stroke
@@ -4995,26 +4965,6 @@
 			(type default)
 		)
 		(uuid "5bd3ca82-f8bb-4e08-acb9-1087f6760f5d")
-	)
-	(wire
-		(pts
-			(xy 271.78 104.14) (xy 265.43 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c381493-2bb3-475a-b27b-9f9bb017aac8")
-	)
-	(wire
-		(pts
-			(xy 43.18 138.43) (xy 52.07 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e687531-db22-4e4f-a3f6-7249f9fe9437")
 	)
 	(wire
 		(pts
@@ -5348,16 +5298,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 114.3) (xy 265.43 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d50cd15-1e32-482f-9ad4-2d5e84eb56e2")
-	)
-	(wire
-		(pts
 			(xy 149.86 116.84) (xy 149.86 114.3)
 		)
 		(stroke
@@ -5425,26 +5365,6 @@
 			(type default)
 		)
 		(uuid "97677d72-ed54-48e2-b48d-4a4f8ae16576")
-	)
-	(wire
-		(pts
-			(xy 271.78 116.84) (xy 265.43 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97c10cba-460d-4c99-a9ce-e933c61140c3")
-	)
-	(wire
-		(pts
-			(xy 43.18 133.35) (xy 52.07 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97c8693a-38ca-4fe3-80d9-21b96e1e85ed")
 	)
 	(wire
 		(pts
@@ -5628,16 +5548,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 143.51) (xy 43.18 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc9ceb62-e7d6-4612-abd3-61a6d18ebab7")
-	)
-	(wire
-		(pts
 			(xy 31.75 63.5) (xy 48.26 63.5)
 		)
 		(stroke
@@ -5788,7 +5698,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 130.81) (xy 52.07 130.81)
+			(xy 43.18 133.35) (xy 52.07 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5828,7 +5738,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 135.89) (xy 52.07 135.89)
+			(xy 43.18 138.43) (xy 52.07 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5908,7 +5818,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 140.97) (xy 52.07 140.97)
+			(xy 43.18 143.51) (xy 52.07 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6067,12 +5977,12 @@
 		(uuid "2a2bd295-9e1a-4bb2-9806-9bdb827c6344")
 	)
 	(label "Z_MIN"
-		(at 271.78 114.3 180)
+		(at 265.43 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2ade870a-f264-482a-a97e-d403ff1d9746")
 	)
@@ -6116,26 +6026,6 @@
 		)
 		(uuid "33b9daaf-0475-49f3-b88d-1df98b12c6eb")
 	)
-	(label "Y_MAX"
-		(at 271.78 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "351be82f-6fe0-4dc2-8869-8e902ebb6c28")
-	)
-	(label "Y_MAX"
-		(at 52.07 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "37d2595c-ac00-4944-be3c-ac6b8602f182")
-	)
 	(label "LEFT_BTN"
 		(at 152.4 157.48 90)
 		(effects
@@ -6165,16 +6055,6 @@
 			(justify left bottom)
 		)
 		(uuid "4074b4cf-a7e3-4781-8f41-dca7cb99e2a3")
-	)
-	(label "Z_MAX"
-		(at 52.07 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "44382286-843c-4354-8a5c-6d3e823fbade")
 	)
 	(label "X_DIR"
 		(at 265.43 81.28 0)
@@ -6245,16 +6125,6 @@
 			(justify left bottom)
 		)
 		(uuid "6ef9e11a-9597-4818-b148-29d05cfff496")
-	)
-	(label "X_MAX"
-		(at 52.07 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70bea188-78da-44c6-bbbd-4c3e8b5f311b")
 	)
 	(label "LED_DATA"
 		(at 265.43 43.18 0)
@@ -6387,7 +6257,7 @@
 		(uuid "9d50f3ab-c085-4c96-b71b-5629ece618b8")
 	)
 	(label "Y_MIN"
-		(at 52.07 135.89 180)
+		(at 52.07 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6425,16 +6295,6 @@
 			(justify left bottom)
 		)
 		(uuid "a814036c-752f-443c-920d-18802f84feab")
-	)
-	(label "X_MAX"
-		(at 271.78 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aa709024-d2f5-4c6f-a4b9-50a6d5d4d801")
 	)
 	(label "Z_EN"
 		(at 265.43 101.6 0)
@@ -6517,12 +6377,12 @@
 		(uuid "c96c4910-fbbc-49c6-9071-92cf737ccefe")
 	)
 	(label "X_MIN"
-		(at 271.78 104.14 180)
+		(at 265.43 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ca306af6-0137-4ce7-a13a-07d2af3280fb")
 	)
@@ -6607,7 +6467,7 @@
 		(uuid "ed3420d1-6190-425f-9fe4-a69eaf4833d9")
 	)
 	(label "Z_MIN"
-		(at 52.07 140.97 180)
+		(at 52.07 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6617,7 +6477,7 @@
 		(uuid "ee923101-9479-4619-a196-01f5321bcf2f")
 	)
 	(label "X_MIN"
-		(at 52.07 130.81 180)
+		(at 52.07 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6626,23 +6486,13 @@
 		)
 		(uuid "ee925566-abbf-4abf-8e47-e5e934a348de")
 	)
-	(label "Z_MAX"
-		(at 271.78 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f454f0ef-70e3-406d-9d17-cfdb021f828a")
-	)
 	(label "Y_MIN"
-		(at 271.78 109.22 180)
+		(at 265.43 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f4aa30f3-7a62-42c9-952c-e9ca587c67f9")
 	)
@@ -14282,16 +14132,6 @@
 				(justify left top)
 			)
 		)
-		(pin "X_MAX" output
-			(at 43.18 130.81 0)
-			(uuid "e6883254-a2ba-45ca-904c-364520c4f446")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "X_MIN" output
 			(at 43.18 133.35 0)
 			(uuid "08c0503c-6b10-4848-8e82-1f6129b142de")
@@ -14302,29 +14142,9 @@
 				(justify right)
 			)
 		)
-		(pin "Y_MAX" output
-			(at 43.18 135.89 0)
-			(uuid "76e26fce-3850-44d3-81f3-0d77ae17ad50")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Y_MIN" output
 			(at 43.18 138.43 0)
 			(uuid "43f3ad4c-19a8-495a-91d6-47b207456e4e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Z_MAX" output
-			(at 43.18 140.97 0)
-			(uuid "78e058f1-f873-42c4-92d1-34d375060083")
 			(effects
 				(font
 					(size 1.27 1.27)
