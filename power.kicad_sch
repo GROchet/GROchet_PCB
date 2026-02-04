@@ -3487,7 +3487,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5126218"
 			(at 194.31 133.35 0)
 			(effects
 				(font
@@ -3739,7 +3739,7 @@
 		(at 153.67 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3925,6 +3925,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6119932"
+			(at 66.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64f7136c-c418-4e86-9756-3b4323df335b")
 		)
@@ -3986,6 +3995,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C140285"
 			(at 121.92 107.95 0)
 			(effects
 				(font
@@ -4080,6 +4098,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C880632"
 			(at 97.79 118.11 0)
 			(effects
 				(font
@@ -4224,6 +4251,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7503512"
+			(at 73.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "404d79be-b919-4529-bb5f-ec8f56624628")
 		)
@@ -4244,7 +4280,7 @@
 		(at 149.86 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7138d73c-1f8d-4f52-bb88-8a836d2dbea4")
@@ -4311,7 +4347,7 @@
 		(at 31.75 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4424,6 +4460,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 204.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7432784"
 			(at 204.47 118.11 0)
 			(effects
 				(font
@@ -4568,6 +4613,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22435950"
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bbfc6af-8ad4-49ca-86ff-1b4db1088b73")
 		)
@@ -4588,7 +4642,7 @@
 		(at 100.33 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8b37e0b4-714b-4bd0-83d8-b0f8df3e33de")
@@ -4782,7 +4836,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C48533742"
 			(at 182.88 118.11 0)
 			(effects
 				(font
@@ -5073,6 +5127,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119932"
 			(at 77.47 97.79 0)
 			(effects
 				(font
@@ -5434,6 +5497,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C541365"
+			(at 86.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82bfbd4d-d3f0-45dc-8819-1d49112328cc")
 		)
@@ -5496,6 +5568,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119932"
 			(at 88.9 97.79 0)
 			(effects
 				(font

@@ -1510,6 +1510,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C265281"
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e9741e20-c849-46c7-b11e-4c8f40156b2c")
 		)
@@ -1530,7 +1539,7 @@
 		(at 86.36 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2ec3050b-2eb9-4651-b589-f17339790ce7")
@@ -1855,6 +1864,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C265281"
+			(at 66.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c4086b26-12a4-4a01-999f-bc99fc3d62a3")
 		)
@@ -2020,7 +2038,7 @@
 		(at 86.36 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8daa73b0-4a46-4baf-9bee-ae3ba269f917")
@@ -2087,7 +2105,7 @@
 		(at 86.36 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a08a5c21-4ac2-4e71-90dc-739a20f91f32")
@@ -2589,7 +2607,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2907113"
 			(at 82.55 105.41 0)
 			(effects
 				(font
@@ -2745,7 +2763,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2907113"
 			(at 82.55 59.69 0)
 			(effects
 				(font
@@ -2822,7 +2840,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2907113"
 			(at 82.55 82.55 0)
 			(effects
 				(font
@@ -2987,6 +3005,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C265281"
 			(at 66.04 105.41 0)
 			(effects
 				(font
