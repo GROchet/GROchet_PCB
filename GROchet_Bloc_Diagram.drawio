@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.1">
   <diagram name="Page-1" id="cNjbcAVl-HIjSpNh2an1">
-    <mxGraphModel dx="892" dy="1411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1771" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,7 +189,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ttF8rh26tRDxHT8IAsGy-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Dynamixel&lt;/font&gt;" vertex="1">
+        <mxCell id="ttF8rh26tRDxHT8IAsGy-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Dynamixel&lt;/font&gt;&lt;/div&gt;(Pince)" vertex="1">
           <mxGeometry height="80" width="80" x="640" y="620" as="geometry" />
         </mxCell>
         <mxCell id="ttF8rh26tRDxHT8IAsGy-51" edge="1" parent="1" source="ttF8rh26tRDxHT8IAsGy-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="ttF8rh26tRDxHT8IAsGy-1">
